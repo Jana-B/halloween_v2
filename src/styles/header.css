@@ -52,18 +52,6 @@
     margin-left: 40px;
   }
 
-
-  
-  @media (max-width: 768px) {
-    .nav-link {
-      display: block;
-      margin-bottom: 10px;
-    }
-  
-    .nav-link:first-child {
-      margin-right: 0; 
-    }
-  }
   
   .spooky-house-icon {
     width: 30px;
@@ -95,3 +83,27 @@
     margin-left: 40px
   }
   
+  @media (max-width: 768px) {
+    .nav-link {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .home-link{
+        margin-left: 30px;
+      }
+  
+
+  }
+
+  @media (max-width: 480px) {
+    .nav-link {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .home-link{
+        margin-left: 20px;
+      }
+  
+
+  }
