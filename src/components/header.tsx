@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       </div>
       <Nav className={`navbar ${isNavOpen ? "open" : ""}`}>
         <div className="nav-link-container">
-          <Nav.Link href="/" className="nav-link home-link">
+          <Nav.Link href="/homepage" className="nav-link home-link">
             <div className="nav-item">
               <div className="spooky-house-icon">
                 <GiSpookyHouse className="nav-icon" />
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
               <span className="nav-text">Home</span>
             </div>
           </Nav.Link>
-          <Nav.Link href="/" className="nav-link">
+          <Nav.Link href="/page2" className="nav-link">
             <div className="nav-item">
               <div className="spooky-house-icon">
                 <GiSpookyHouse className="nav-icon" />
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
               <span className="nav-text">Page2</span>
             </div>
           </Nav.Link>
-          <Nav.Link href="/" className="nav-link">
+          <Nav.Link href="/page3" className="nav-link">
             <div className="nav-item">
               <div className="spooky-house-icon">
                 <GiSpookyHouse className="nav-icon" />
